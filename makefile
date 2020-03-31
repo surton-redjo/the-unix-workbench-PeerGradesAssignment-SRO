@@ -29,7 +29,7 @@ testSRO04.txt:
 	echo "testrow 04" >> testSRO04.txt
 
 testSROX01.txt:
-	touch TESTFILES/testSRO01.txt
+	touch TESTFILES/testSROX01.txt
 	echo "testrow 01" >> TESTFILES/testSROX01.txt
 
 clean:
