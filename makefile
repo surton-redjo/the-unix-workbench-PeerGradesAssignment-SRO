@@ -7,7 +7,7 @@ README.md:
 	echo "The guessinggame.sh contains `wc -l guessinggame.sh` number of code lines" >> README.md
 
 	echo "I like this link [a link](https://www.speedtest.net)" >> README.md
-	echo "the URL for GitHub [a link](https://github.com/surton-redjo/the-unix-workbench-PeerGradesAssignment-SRO)" >> README.md
+	echo "the URL for GitHub [a link](https://github.com/surton-redjo/the-unix-workbench-PeerGradesAssignment-SRO.git)" >> README.md
 
 
 TESTFILES:
