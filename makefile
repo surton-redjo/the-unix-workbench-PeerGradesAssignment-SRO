@@ -2,12 +2,19 @@ all: README.md TESTFILES testSRO01.txt testSRO02.txt testSRO03.txt testSRO04.txt
 
 README.md:
 	touch README.md
-	echo "##*Title*: **The Unix Workbench - Peer Grades Assignment from Surton**" >> README.md
-	echo "This make file is created on `date`" >> README.md
+	echo "*Title*: **The Unix Workbench - Peer Grades Assignment from Surton**" >> README.md
+	echo ""
+	echo ""
+	echo "This makefile is created on `date`" >> README.md
+	echo ""
+	echo ""
 	echo "The guessinggame.sh contains `wc -l guessinggame.sh` number of code lines" >> README.md
-
-	echo "I like this link [a link](https://www.speedtest.net)" >> README.md
-	echo "the URL for GitHub [a link](https://github.com/surton-redjo/the-unix-workbench-PeerGradesAssignment-SRO.git)" >> README.md
+	echo ""
+	echo ""
+	echo "I like this link [speedtest link](https://www.speedtest.net)" >> README.md
+	echo ""
+	echo ""
+	echo "the URL for my GitHub [my assignment](https://github.com/surton-redjo/the-unix-workbench-PeerGradesAssignment-SRO.git)" >> README.md
 
 
 TESTFILES:
