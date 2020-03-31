@@ -5,7 +5,10 @@ README.md:
 	echo "##*Title*: **The Unix Workbench - Peer Grades Assignment from Surton**" >> README.md
 	echo "This make file is created on `date`" >> README.md
 	echo "The guessinggame.sh contains `wc -l guessinggame.sh` number of code lines" >> README.md
+
+	echo "I like this link [a link](https://www.speedtest.net)" >> README.md
 	echo "the URL for GitHub [a link](https://github.com/surton-redjo/the-unix-workbench-PeerGradesAssignment-SRO)" >> README.md
+
 
 TESTFILES:
 	mkdir TESTFILES
